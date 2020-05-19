@@ -1,0 +1,259 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EBF3FF;
+}
+header {
+    background: url(head_background.jpg) no-repeat center top / cover;
+    height: 948px;
+}
+.top_header{
+    display: flex;
+}
+
+.col5, .col6, .col7, .col12 {
+    padding: 0 15px;
+    float: left;
+}
+
+.col5 {
+    width: 42%;
+}
+.col6 {
+    width: 50%;
+}
+.col7 {
+    width: 58%;
+}
+.col12 {
+    width: 100%;
+}
+.menu_search {
+    float: right;
+}
+a > img {
+    width: 104px;
+    height: 128px; 
+    margin-left: 15px;
+    margin-top: 15px;   
+}
+.menu_item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    padding: 0px 26px;
+}
+.menu_link {
+    text-decoration: none;
+    font-family: Catamaran, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #45433E;
+}
+.menu_drop_down {
+    display: none;
+}
+.menu_item:hover .menu_drop_down {
+    display: block;
+    position: absolute;
+    background-color: #EBF3FF;
+    opacity: 0.75;
+    padding-right: 10px;
+}
+form {
+    
+    position: relative;
+    vertical-align: middle;
+    width: 171px;
+    
+}
+input, button {
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+}
+input {
+    width: 100%;
+    height: 30px;
+    background: #BFA295;
+    padding-left: 30px;
+    opacity: 0.5;
+    font-family: Catamaran, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+button {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    left: 7px;
+    top: 7px;
+    opacity: 0;
+}
+button + img {
+    position: absolute;
+    top: 50%;
+    margin-left: 8px;
+    margin-top: 6px;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    opacity: 0.4;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+a {
+    text-decoration: none;
+    color: #45433E;
+}
+.header_text {
+    position: absolute;
+    left: 760px;
+    top: 530px;
+}
+.header_text_item {
+    font-family: El Messiri, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    color: #45433E;
+    letter-spacing: 0.03em;
+}
+h3 {
+    font-size: 25px;
+    font-family: El Messiri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39px;
+    color: #45433E;
+
+}
+h2 {
+    font-size: 54px;
+}
+.url {
+    margin-top: 110px;
+    font-family: Catamaran, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+.button {
+    width: 240px;
+    height: 35px;
+    margin-top: 15px;
+    padding-top: 12px;
+	background: #BFA295;
+    border-radius: 8px;
+    font-family: Catamaran, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+section {
+    margin-top: 90px;
+    display: flex;
+}
+.part1_col1 {
+    width: 60%;
+    zoom: 130%;
+}
+.part1_col3 {
+    zoom: 130%;
+}
+.part1_col2 {
+    width: 40%;
+    text-align: right;
+}
+p {
+    font-family: Catamaran, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #45433E;
+}
+.button1 {
+    margin-left: auto;
+    margin-top: 50px;
+}
+.part2 {
+    height: 409px;
+}
+.part2_img img {
+    position: absolute;
+    width: 397px;
+    height: 265px;
+    left: 148px;
+    top: 1650px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+.rectangle {
+    width: 266px;
+    height: 409px;
+    margin-left: 15px;
+    background: #BFA295;
+}
+.part2_col2 {
+    position: absolute;
+    width: 342px;
+    left: 846px;
+    top: 1580px;
+    text-align: left;
+}
+.part2_col2 p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.button2 {
+    margin-top: 40px;
+}
+.part3 {
+    height: 257px;
+}
+.imgfish img{
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    opacity: 0.75;
+}
+.f1 img {
+    left: 110px;
+    top: 2235px;
+}
+.f2 img {
+    left: 1360px;
+    top: 2090px;
+}
+.part3_text {
+    color: #45433E;
+    text-align: center;
+    font-style: normal;
+    width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.part3_text p {
+    font-size: 13px;
+    line-height: 21px;
+}
+h1 {
+    font-family: El Messiri;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
